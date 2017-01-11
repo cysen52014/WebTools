@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+html {font-family: sans-serif;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
+body {margin: 0;background:#92e7ff}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {display: block;}
+audio,canvas,progress,video {display: inline-block;vertical-align: baseline;}
+*{margin:0;padding:0;list-style-type:none;}
+html, body, form, p, h1, h2, h3, h4, h5, h6, dl, ul, ol, li, dt, dd, select,nav ,header{ margin: 0; padding: 0;  }
+body, select, input, option { color: #000; font: 16px/1.5 "Microsoft YaHei",Arial; -webkit-text-size-adjust: 100%;text-size-adjust:100%;  }
+ul, ol, li { list-style-type: none; }
+input, button, textarea { font-size: 16px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+a:hover { color: #FF6600; }
+a{ text-decoration: none; color:#333 }
+a img { border: 0 none; }
+
+
+a:focus{ outline:none; -moz-outline:none; }
+
+input[type="button"], input[type="text"], input[type="submit"], input[type="search"], input[type="email"], input[type="number"], input[type="phone"], button { -webkit-appearance: none; -moz-appearance: none; -webkit-border-image: none; border-image: none; -webkit-border-radius: 0; border-radius: 0; }
+.clear{ clear:both }
+.clearfix:after { content: ""; display: block; height: 0; overflow: hidden; clear: both; visibility: hidden; }
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ff7562;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ff7562;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #ff7562;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #ff7562;
+}
+
+
+/*-------------------------正文-----------------------------------*/
